@@ -3,8 +3,12 @@ import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <nav className="text-3xl font-bold underline">
+      <div className='name'>Jacob Nelsen-Epstein</div>
+      <div className='about'>About</div>
+      <div className='resume'>Resume</div>
+      <div className='works'>Works</div>
+      <div className='music'>music</div>
+    </nav>
   );
 }
